@@ -25,10 +25,10 @@
             <button onclick="deleteTask({{ task.id }})">Delete</button>
         </li>
         {% endfor %}
-    </ul>
+    </ul> 
     
     <script>
-        // Add functionality to interact with the API
+        // ((add functionality to interact with the API))
         document.getElementById('task-form').addEventListener('submit', function(event) {
             event.preventDefault();
             const title = document.getElementById('task-title').value;
@@ -60,7 +60,7 @@
         }
 
         function editTask(id) {
-            // Implement task editing functionality here
+            // ((implement task editing functionality here))
         }
     </script>
 </body>

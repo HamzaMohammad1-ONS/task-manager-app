@@ -41,7 +41,6 @@ textarea {
     height: 150px; /* Adjust height of the description field */
 }
 
-/* Submit button styling */
 /* Base button styles */
 button {
     padding: 10px 20px;
@@ -59,7 +58,7 @@ button:hover {
     background-color: #45a049;
     transform: scale(1.05);
 }
-
+ 
 /* Focus effect */
 button:focus {
     outline: none;
